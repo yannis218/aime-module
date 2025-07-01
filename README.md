@@ -1,3 +1,7 @@
+# yannis218 fork
+
+This is a quick hack to fix a couple of issues I had with this mod on Foundry v13.
+
 # Notice
 
 Due to health issues, my ability to keep this system updated is limited.
