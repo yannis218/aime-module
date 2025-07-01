@@ -37,8 +37,8 @@
   .dnd5e2.sheet.actor.character .ability-scores .ability-score[data-ability="perm"] > a  {
     pointer-events: none;
   }
-  .dnd5e2.sheet.actor.character .ability-scores .ability-score[data-ability="sha"] .sign,
-  .dnd5e2.sheet.actor.character .ability-scores .ability-score[data-ability="perm"] .sign  {
+  .dnd5e2.sheet.actor.character .ability-scores .ability-score[data-ability="sha"] .mod,
+  .dnd5e2.sheet.actor.character .ability-scores .ability-score[data-ability="perm"] .mod  {
     display: none;
   }
   .dnd5e2.sheet.actor.character .sheet-body .saves li[data-ability="sha"],
@@ -252,14 +252,6 @@
   /*  RPG-Styled UI                            */
   /* ----------------------------------------- */
 
-.control {
-    font-family: arial;
-    position: relative !important;
-    padding-left: 18px !important;
-    margin-bottom: 5px;
-    padding-top: 3px;
-    font-size: 16px;
-}
 .control input {
         position: absolute !important;
         z-index: -1 !important;
